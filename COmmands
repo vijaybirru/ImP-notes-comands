@@ -1,0 +1,5 @@
+scp -i /path/to/your/.pemkey -r /copy/from/path user@server:/copy/to/path
+
+*********SEE SIZE OF FOLDER AND FILES********
+Use ls -s to list file size, or if you prefer ls -sh for human readable sizes.
+For directories use du, and again, du -h for human readable sizes.
